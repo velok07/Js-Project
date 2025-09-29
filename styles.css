@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+}
+
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nunito-sans-font {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+
+
+.main{
+    margin-top: 107px;
+    margin-left: 134px;
+    margin-right: 134px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.admiral__btn{
+    color: rgba(255, 255, 255, 0.30);
+
+    font-family: "Yeseva One";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+    text-transform: uppercase;
+
+    border: none;
+}
+.admiral__btn:hover{
+    cursor: pointer;
+}
+
+.active_Btn{
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+    text-transform: uppercase;
+
+    border: none;
+
+    text-decoration: underline;
+}
+
+.active_Btn:hover{
+    cursor: pointer;
+}
+
+.main__header{
+    display: flex;
+    gap: 60.5px;
+    align-self: flex-end;
+}
+
+.main__block{
+    display: flex;
+    gap: 50px;
+    
+    
+}
+.main__block_controls{
+    margin-top: 80px;
+    display: flex;
+    gap: 29px;
+}
+
+.aparts__info{
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 34px;
+}
+
+
+
+.main__block_info_name{
+    color: #E3B873;
+
+    font-family: "Yeseva One";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+    letter-spacing: -1.89px;
+    text-transform: uppercase;
+}
+
+.main__block_info_about{
+    margin-top: 34px;
+    
+    color: #FFF;
+
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190.96%;
+}
+
+.aparts__category_name{
+    color: #E3B873;
+
+    font-family: "Yeseva One";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%;
+    text-transform: uppercase;
+}
+
+.previous, .next{
+    border: none;
+    
+}
+
+.activeLowerBtn{
+    background-image: url("assets/images/whiteRtg.png");
+}
+
+.previous:hover{
+    cursor: pointer;
+}
+.next:hover{
+    cursor: pointer;
+}
+
+.aparts__text{
+    color: #FFF;
+    font-family: "Nunito Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%;
+}
+
+.image{
+    width: 679px;
+    height: 482px;
+}
+
+.lowerBtns{
+    border: none;
+}
+
+.lowerBtns__div{
+    display: flex;
+    gap: 17px;
+}

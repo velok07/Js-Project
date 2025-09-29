@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+
+
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="main">
+        <div class="main__header">
+            <button class="admiral__btn admiral_Btn">Rostov-on-Don, Admiral</button>
+            <button class="admiral__btn thievs_Btn">Sochi Thieves</button>
+            <button class="admiral__btn patriotic_Btn">Rostov-on-Don Patriotic</button>
+        </div>
+        <div class="main__block">
+            <div class="main__block_info">
+                <div class="main__block_info_name">Completed projects</div>
+                <p class="main__block_info_about">
+                    Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction 
+                    market we have made happy more than 1000 families
+                </p>
+                <div class="aparts__info">
+                    <div class="aparts__city">
+                        <p class="aparts__category_name">City:</p>
+                        <p class="current__apartCity aparts__text"></p>
+                        <p class="current__apartCity_residence aparts__text"></p>
+                    </div>
+                    <div class="aparts__area">
+                        <p class="aparts__category_name">Apartment area:</p>
+                        <p class="current__apartArea aparts__text"></p>
+                    </div>
+                    <div class="aparts__repairTime">
+                        <p class="aparts__category_name">Repair time:</p>
+                        <p class="current__apartsRepairTime aparts__text"></p>
+                    </div>
+                    <div class="aparts__cost">
+                        <p class="aparts__category_name">Repair Cost:</p>
+                        <p class="current__apartCost aparts__text">Upon request</p>
+                    </div>
+                </div>
+                <div class="main__block_controls">
+                    <button class="previous"><img src="assets/images/leftarrow.svg" alt="previousBtn"></button>
+                    <div class="lowerBtns__div">
+                        <button class="firstBtn lowerBtns"><img src="assets/images/grayRtg.png" alt=""></button>
+                        <button class="secondBtn lowerBtns"><img src="assets/images/grayRtg.png" alt=""></button>
+                        <button class="thirdBtn lowerBtns"><img src="assets/images/grayRtg.png" alt=""></button>
+                    </div>
+
+                    <button class="next"><img src="assets/images/rightarrow.svg" alt="nextBtn"></button>
+                </div>
+
+            </div>
+            <div class="main__block_image">
+                <img class="image" src="" alt="">
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
